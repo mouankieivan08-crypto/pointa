@@ -1,0 +1,13 @@
+{
+  "name": "Pointa — Espace enseignant",
+  "short_name": "Pointa",
+  "description": "Pointez vos heures depuis votre téléphone.",
+  "start_url": "/espace",
+  "display": "standalone",
+  "background_color": "#0a0f1e",
+  "theme_color": "#1e46c8",
+  "icons": [
+    { "src": "/icon-512.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}
