@@ -1,0 +1,17 @@
+# Fins de ligne : LF dans le dépôt, peu importe le système de la machine.
+* text=auto eol=lf
+
+# Fichiers binaires : jamais convertis (modèles de reconnaissance, images, polices).
+*.bin binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.webp binary
+*.ico binary
+*.woff binary
+*.woff2 binary
+*.pdf binary
+*.mp4 binary
+
+# Le verrou npm n'a pas à encombrer les différences.
+package-lock.json linguist-generated=true -diff
